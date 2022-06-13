@@ -27,7 +27,7 @@ function Footer() {
 
             <ul className="mt-2">
               {supportLinks.map(([text, link]) => (
-                <li className="uppercase text-sm py-2">
+                <li key={text} className="uppercase text-sm py-2">
                   <a href={link}>{text}</a>
                 </li>
               ))}
@@ -39,7 +39,7 @@ function Footer() {
 
             <ul className="mt-2">
               {infoLinks.map(([text, link]) => (
-                <li className="uppercase text-sm py-2">
+                <li key={text} className="uppercase text-sm py-2">
                   <a href={link}>{text}</a>
                 </li>
               ))}
