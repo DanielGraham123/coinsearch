@@ -22,7 +22,7 @@ function Trending() {
             key={coin.item.coin_id}
             className="rounded-div flex justify-between hover:scale-105 p-4 ease-in-out duration-300"
           >
-            <div className="flex md:block xl:flex w-full items-center justify-between">
+            <div className="flex md:block mlg:flex w-full items-center justify-between">
               <div className="flex">
                 <img
                   className="mr-4 rounded-full"
@@ -36,7 +36,7 @@ function Trending() {
                 </div>
               </div>
 
-              <div className="flex md:float-right xl:text-base items-center">
+              <div className="flex md:float-right mlg:text-base xl:text-base items-center">
                 <img
                   src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"
                   alt="dd"
